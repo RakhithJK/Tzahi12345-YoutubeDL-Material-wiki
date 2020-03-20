@@ -1,8 +1,10 @@
-# API
+# Introduction
 
 You can use the internal API on your server to run downloads on your instance without using the frontend. All of the available endpoints can be seen over [here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/backend/app.js) -- search for '/api/' on the page to find all the endpoints. 
 
 Note that in the future, the API will be updated such that it can be accessed outside of your network, and will be more documented both internally and in this very wiki page.
+
+# Available Endpoints
 
 ## Downloading files
 
