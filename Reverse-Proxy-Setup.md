@@ -1,5 +1,3 @@
-# Reverse Proxy Setup
-
 ## Introduction
 
 Using a reverse-proxy channels all YoutubeDL-Material requests through your web server, allowing you to easily enable SSL and take advantage of features like load-balancing. Explore the different approaches with your favorite web server.
