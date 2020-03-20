@@ -6,7 +6,7 @@ This page is all about how to create translations for YoutubeDL-Material. If you
 
 Translating YoutubeDL-Material into a new language is a multi-step process. It begins with the `messages.en.xlf` file, which contains virtually all strings, (referred to as *source string*) within the UI in English. This is usually called a *source file*, and is of type [XLIFF](https://en.wikipedia.org/wiki/XLIFF).
 
-The *target file*, contains both the source string, and the *target string*, which is the translated string in the target language. Here is an excerpt from `messages.es.xlf` file ([view here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/src/assets/i18n/messages.es.xlf)), which is the English->Spanish translation of YoutubeDL-Material:
+The *target file* contains both the source string and the *target string*, which is the translated string in the target language. Here is an excerpt from `messages.es.xlf` file ([view here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/src/assets/i18n/messages.es.xlf)), which is the English->Spanish translation of YoutubeDL-Material:
 
 	<trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59">
 		<source>Name</source>
