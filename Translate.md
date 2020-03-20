@@ -1,6 +1,4 @@
-# Translate
-
-This page is all about how to create translations for YoutubeDL-Material. If you are simply trying to set your language within the app, you can find that option in the settings menu.
+Note: This page is all about how to create translations for YoutubeDL-Material. If you are simply trying to set your language within the app, you can find that option in the settings menu.
 
 ## Introduction (for beginners)
 
