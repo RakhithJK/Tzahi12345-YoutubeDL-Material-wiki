@@ -1,3 +1,5 @@
+![](https://img.shields.io/amo/dw/youtubedl-material)
+
 # Setup
 
 Getting started with the Firefox extension is quite simple!
