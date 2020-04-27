@@ -35,7 +35,7 @@ Make sure you read through the Introduction above to get yourself familiarized w
 4. If everything is looking A-OK, the next step is to submit a PR that contains your new translation. This PR should take care of 3 things:
 * Add the new target XLIFF file to the `src/assets/i18n` folder.
 * Add the new target JSON file to the `src/assets/i18n` folder.
-* Add the new language code to the `supported_locales` in the `settings.component.ts` file [here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/src/app/settings/settings.component.ts)
+* Add the new language code to the `supported_locales` array in the `settings.component.ts` file [here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/src/app/settings/settings.component.ts)
 
 The last requirement for the PR (adding the new language code) is the least important one, so if you simply add the target `xliff` and `json` files, I can handle the rest.
 
