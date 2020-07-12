@@ -1,5 +1,6 @@
 Here are the official contributing guidelines! The following sections are included:
 
+* [Getting set up](#getting-set-up)
 * [Frontend](#frontend)
   * [Code Overview](#code-overview) (WIP)
   * [General rules](#general-rules)
@@ -8,7 +9,27 @@ Here are the official contributing guidelines! The following sections are includ
   * [Code Overview](#code-overview-1) (WIP)
   * [General rules](#general-rules-1) (WIP)
 
+# Getting set up
+
+1. First, make sure you have Node.js installed. You will need it to do both backend and frontend development.
+2. Install the Angular CLI: `npm install -g @angular/cli`. This will be immensely helpful in working with Angular.
+3. Clone the repository if you haven't already: `git clone https://github.com/Tzahi12345/YoutubeDL-Material.git`
+
+## Starting the frontend
+
+Note: Make sure you are in the root directory of the app!
+
+1. Run `ng serve`. This will start the frontend dev server, and you will be able to access it by going to `http://localhost:4200` in your web browser.
+2. That's it! If you save a file, the dev server will automatically restart and you'll be able to immediately see your code changes. Now make sure your backend is up and running :)
+
+## Starting the backend
+
+1. Go into the `backend` directory, which you can find in the root folder.
+2. Set the env var `YTDL_MODE` to `debug`. On Linux you can generally run `export YTDL_MODE="debug"`, and on Windows run `set YTDL_MODE=debug`
+3. Finally, run `node app.js` to run the backend server. You're all set! To see backend code updates, restart the server.
+
 # Frontend
+
 ## Code Overview
 This section is WIP.
 
