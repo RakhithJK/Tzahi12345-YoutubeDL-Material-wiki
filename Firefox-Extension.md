@@ -25,3 +25,18 @@ As a result, the addon requires the `tabs` permission.
 ### Cookies
 
 The YoutubeDL-Material link the addon uses is stored in the settings. These settings are stored using your browser's cookies. As a result, the addon requires the `storage` permission. View the settings JS code [here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/chrome-extension/options.js), and HTML code [here](https://github.com/Tzahi12345/YoutubeDL-Material/blob/master/chrome-extension/options.html).
+
+### Android
+
+The latest release of Firefox makes adding extensions a little more difficult (and that's an understatement). If you'd like to do so, follow these steps:
+
+1. Download Firefox Nightly from the Play Store
+2. Go into the settings and click on `About Firefox Nightly` at the bottom of the settings menu
+3. Tap on the Firefox logo until it enables the debug mode
+4. Go back into settings and click on `Custom Add-on collection`
+5. Type the following information in the dialog:
+* Collection owner: `15736936`
+* Collection name: `YTDL-M`
+6. Add the extension
+7. Go back to settings and click `Addons` then `YoutubeDL-Material` and set up the settings for the extension
+8. You're all set! Navigate to a YouTube page, click the 3 dots on the bottom right, then click Addons, and then click YoutubeDL-Material to start your download.
