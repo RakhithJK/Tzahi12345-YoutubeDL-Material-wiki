@@ -18,3 +18,7 @@ For example, if you want a "tech" category, you can have the following ruleset:
 <img src="https://i.imgur.com/oTjo1NE.png" width="500">
 
 And let's say you want a custom file output for these videos, you can make it `videos/tech/%(title)s`, meaning all those videos will end up in a folder called `tech` in your `videos` folder.
+
+## Caveats
+
+* Categories are not currently implement for subscriptions
