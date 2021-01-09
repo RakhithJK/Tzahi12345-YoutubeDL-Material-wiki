@@ -1,5 +1,11 @@
 Note: This page is all about how to create translations for YoutubeDL-Material. If you are simply trying to set your language within the app, you can find that option in the settings menu.
 
+# Easy method
+
+We now do community-sourced translations through Weblate! You can easily add translations [at this link](https://hosted.weblate.org/projects/youtubedl-material/ytdl-material/).
+
+# Hard method (useful for contributors)
+
 ## Introduction (for beginners)
 
 Translating YoutubeDL-Material into a new language is a multi-step process. It begins with the `messages.en.xlf` file, which contains virtually all strings, (referred to as *source string*) within the UI in English. This is usually called a *source file*, and is of type [XLIFF](https://en.wikipedia.org/wiki/XLIFF).
