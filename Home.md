@@ -8,9 +8,10 @@ See the available pages below.
 
 ## Available pages
 
-* [Reverse Proxy Setup](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Reverse-Proxy-Setup)
-* [Categories](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Categories)
-* [Translate](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Translate) (to create translations)
 * [API](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/API)
+* [Categories](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Categories)
 * [Firefox Extension](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Firefox-Extension)
 * [Fixing 429 Errors](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Fixing-429-errors)
+* [Reverse Proxy Setup](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Reverse-Proxy-Setup)
+* [Translate](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Translate) (to create translations)
+* [unRAID](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/unRAID)
