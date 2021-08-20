@@ -10,6 +10,7 @@ See the available pages below.
 
 * [API](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/API)
 * [Categories](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Categories)
+* [Contributing](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Contributing)
 * [Firefox Extension](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Firefox-Extension)
 * [Fixing 429 Errors](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Fixing-429-errors)
 * [Reverse Proxy Setup](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Reverse-Proxy-Setup)
