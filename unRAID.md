@@ -10,6 +10,10 @@ To run a medium-sized database successfully and enjoy the benefits of backing up
 * The application still needs to be more responsive for shutdowns of the app to be graceful at all times.
 * The scalability is limited as of now. Whilst you can absolutely run many subscriptions to channels and have a lot of files managed by YoutubeDL-Material, it is VERY advised to run this with a mongoDB connected. A basic setup that assumes you have some level of unRAID knowledge container management already (e.g. adding and editing environment variables in them) is written down below. Even with mongoDB connected the experience still will scale with slowdowns on large databases (e.g. tens of thousands of videos stored), because performance optimizations in the codebase are still needed.
 
+## Recommendations
+* If you are going to subscribe to a lot of channels it is very advised that your downloads are writing straight to the array or for your Mover settings to be pretty aggressive, because once your unRAID cache is full it is very possible for things to get very flaky. Especially if your mongoDB is stored on the same cache pool.
+* Large installations best use mongoDB as a backend or eventually another dedicated database if/once offered. The default is to use json files in the appdata folder, which is palletable with smaller to medium-sized installations, however things can grow quicker than you expect, especially with subscriptions active. You can also expect a lot better reliability from having a proper database as your backend.
+
 ## mongoDB Database Setup
 Take the official mongoDB container as posted in the CAs, remove the values from the template for the admin user and password, set networking to host and set the port to your desired value.
 
