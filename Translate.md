@@ -46,3 +46,22 @@ Make sure you read through the Introduction above to get yourself familiarized w
 The last requirement for the PR (adding the new language code) is the least important one, so if you simply add the target `xliff` and `json` files, I can handle the rest.
 
 And that's pretty much it! Once your PR is merged, then the translations should be available in the next update. If you're having trouble with any of these steps, [create an issue](https://github.com/Tzahi12345/YoutubeDL-Material/issues) and I'll be happy to help.
+
+## FAQ
+
+### What is VAR_SELECT?
+
+It's a way to have translations on word or phrases that can change. To translate all the possibilities, you can follow this example done in Spanish:
+
+This
+
+```
+{VAR_SELECT, select, true {Close} false {Cancel} other {other} }
+```
+becomes
+
+```
+{VAR_SELECT, select, true {Cerrar} false {Cancelar} other {Otro} }
+```
+
+Basically just put the translation in the curly braces, for example `Close` in Spanish is `Cerrar`.
