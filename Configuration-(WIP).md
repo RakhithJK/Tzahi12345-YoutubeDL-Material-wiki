@@ -10,6 +10,14 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | URL | url | ytdl_url | URL for the frontend - not always needed especially with Docker | http://example.com |
 | Port | port | ytdl_port | Port for the frontend | 17442 |
+| Multi-user mode | multi_user_mode | ytdl_multi_user_mode | Allows creation of users (with their own files), roles, and permissions, enables the `Users` tab | false |
+| Users base path | users_base_path | ytdl_users_base_path | Deprecated - not used | "users/" |
+| Allow subscriptions | allow_subscriptions | ytdl_allow_subscriptions | Allows subscribing to channels | true |
+| Subscriptions base path | subscriptions_base_path | ytdl_subscriptions_base_path | Deprecated - not used | "subscriptions/" |
+| Check interval | subscriptions_check_interval | ytdl_subscriptions_check_interval | Amount of time between cycling through all subscriptions. If you have 10 subs and the interval is set to 100, every 10 seconds another sub will be checked | 86400 |
+| Redownload fresh uploads | redownload_fresh_uploads | ytdl_subscriptions_redownload_fresh_uploads | Checks day-old or newer videos in a subscription to see if a higher quality one exists. If it does, it's downloaded | false |
+| Theme | default_theme | ytdl_default_theme | Sets the default theme ("default" or "dark") | "Default" |
+| Allow theme change | allow_theme_change | ytdl_allow_theme_change | Allows the theme to be changed by hitting the 3 dots in the top right corner | true |
 
 ## Downloader (finished)
 
