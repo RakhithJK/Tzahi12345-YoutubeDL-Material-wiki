@@ -4,7 +4,7 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 
 # Items
 
-## Main (WIP)
+## Main
 
 | Text | Name | Key/ENV Var | Explanation | Default value |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -19,7 +19,7 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 | Theme | default_theme | ytdl_default_theme | Sets the default theme ("default" or "dark") | "Default" |
 | Allow theme change | allow_theme_change | ytdl_allow_theme_change | Allows the theme to be changed by hitting the 3 dots in the top right corner | true |
 
-## Downloader (finished)
+## Downloader
 
 | Text | Name | Key/ENV Var | Explanation | Default value |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -34,7 +34,7 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 | Max concurrent downloads | max_concurrent_downloads | ytdl_max_concurrent_downloads | Limits the number of simultaneous downloads | 5 |
 | Download rate limit | download_rate_limit | ytdl_download_rate_limit | Limits download speed | "" |
 
-## Extra (finished)
+## Extra
 
 | Text | Name | Key/ENV Var | Explanation | Default value |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
