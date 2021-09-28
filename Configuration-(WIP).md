@@ -8,7 +8,7 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 
 | Text | Name | Key/ENV Var | Explanation | Default value |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| URL | url | ytdl_url | URL for the frontend - not always needed especially with Docker | http://example.com |
+| URL | url | ytdl_url | URL for the frontend - not always needed especially with Docker | "http://example.com" |
 | Port | port | ytdl_port | Port for the frontend | 17442 |
 | Multi-user mode | multi_user_mode | ytdl_multi_user_mode | Allows creation of users (with their own files), roles, and permissions, enables the `Users` tab | false |
 | Users base path | users_base_path | ytdl_users_base_path | Deprecated - not used | "users/" |
@@ -67,7 +67,14 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 | Select a downloader | default_downloader | ytdl_default_downloader | youtube-dl fork to use ([youtube-dl](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#readme), [youtube-dlc](https://github.com/blackjack4494/yt-dlc), or [yt-dlp](https://github.com/yt-dlp/yt-dlp)) | "youtube-dl" |
 | Use default downloading agent | use_default_downloading_agent | ytdl_use_default_downloading_agent | Whether to use youtube-dl's default agent or an alternative | true |
 | Select a download agent | custom_downloading_agent | ytdl_custom_downloading_agent | Preferred download agent, only used if "Use default downloading agent" is set to false | "" |
-| Log level | logger_level | ytdl_logger_level | Choose one of `debug`, `verbose`, `info`, `warn`, `error` in ascending order of quietness, ex. error only displays errors but `debug` displays everything. | 17442 |
+| Log level | logger_level | ytdl_logger_level | Choose one of `debug`, `verbose`, `info`, `warn`, `error` in ascending order of quietness, ex. error only displays errors but `debug` displays everything. | "info" |
 | Login expiration | jwt_expiration | ytdl_jwt_expiration | Lenght of time it takes for logins to expire | 86400 |
 | Allow advanced download | allow_advanced_download | ytdl_allow_advanced_download | Enables an advanced download tab on the home page for additional download settings and information | false |
 | Use Cookies | use_cookies | ytdl_use_cookies | Enables usage of uploaded [cookies](https://github.com/ytdl-org/youtube-dl#filesystem-options) to download videos as if you were logged into that website | false |
+
+## Users (Only if multi-user mode is enabled, WIP)
+
+| Text | Name | Key/ENV Var | Explanation | Default value |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Allow registration | ytdl_allow_registration | ytdl_port | Allows users to register in the login page | true |
+| Auth method | ytdl_auth_method | ytdl_port | "internal" or "ldap" | "internal" |
