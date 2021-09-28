@@ -9,6 +9,8 @@ See the available pages below.
 ## Available pages
 
 ### General
+* [Configuration](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Configuration)
+* [Environment Variables](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Environment-Variables)
 * [API](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/API)
 * [Categories](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Categories)
 * [Contributing](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Contributing)
