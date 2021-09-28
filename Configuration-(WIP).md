@@ -52,3 +52,22 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 | Auto-download Twitch Chat | twitch_auto_download_chat | ytdl_twitch_auto_download_chat | Automatically downloads Twitch chats for VODs (requires Twitch API to be enabled) | false |
 | Use SponsorBlock API | use_sponsorblock_API | ytdl_use_sponsorblock_api | Enables "Skip ads" button in the video player if found on [SponsorBlock](https://sponsor.ajay.app/) | false |
 | Generate NFO files | generate_NFO_files | ytdl_generate_nfo_files | Automatically creates [NFO files](https://kodi.wiki/view/NFO_files) for downloaded videos, primarily used with Kodi | false |
+
+## Database
+
+| Text | Name | Key/ENV Var | Explanation | Default value |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| MongoDB Connection String | mongodb_connection_string | mongodb_connection_string  | URL to connect to MongoDB | "mongodb://127.0.0.1:27017/?compressors=zlib" |
+| Transfer DB (button) | use_local_db | use_local_db | Toggles DB between Local (`appdata/local_db.json`) or MongoDB | true |
+
+## Advanced
+
+| Text | Name | Key/ENV Var | Explanation | Default value |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Select a downloader | default_downloader | ytdl_default_downloader | youtube-dl fork to use ([youtube-dl](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#readme), [youtube-dlc](https://github.com/blackjack4494/yt-dlc), or [yt-dlp](https://github.com/yt-dlp/yt-dlp)) | "youtube-dl" |
+| Use default downloading agent | use_default_downloading_agent | ytdl_use_default_downloading_agent | Whether to use youtube-dl's default agent or an alternative | true |
+| Select a download agent | custom_downloading_agent | ytdl_custom_downloading_agent | Preferred download agent, only used if "Use default downloading agent" is set to false | "" |
+| Log level | logger_level | ytdl_logger_level | Choose one of `debug`, `verbose`, `info`, `warn`, `error` in ascending order of quietness, ex. error only displays errors but `debug` displays everything. | 17442 |
+| Login expiration | jwt_expiration | ytdl_jwt_expiration | Lenght of time it takes for logins to expire | 86400 |
+| Allow advanced download | allow_advanced_download | ytdl_allow_advanced_download | Enables an advanced download tab on the home page for additional download settings and information | false |
+| Use Cookies | use_cookies | ytdl_use_cookies | Enables usage of uploaded [cookies](https://github.com/ytdl-org/youtube-dl#filesystem-options) to download videos as if you were logged into that website | false |
