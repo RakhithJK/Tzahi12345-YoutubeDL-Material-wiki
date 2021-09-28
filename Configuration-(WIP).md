@@ -4,10 +4,17 @@ The configuration is stored in `appdata` directory. It's a JSON file separated i
 
 # Items
 
+## Main (WIP)
+
 | Text | Name | Key/ENV Var | Explanation | Default value |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | URL | url | ytdl_url | URL for the frontend - not always needed especially with Docker | http://example.com |
 | Port | port | ytdl_port | Port for the frontend | 17442 |
+
+## Downloader
+
+| Text | Name | Key/ENV Var | Explanation | Default value |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | Audio path | path-audio | ytdl_audio_folder_path | Deprecated - not used | "audio" |
 | Video path | path-video | ytdl_video_folder_path | Deprecated - not used | "video" |
 | Default file output | default_file_output | ytdl_default_file_output | Changes the formatting for file names based on [youtube-dl's output template](https://github.com/ytdl-org/youtube-dl/blob/master/README.md#output-template) | "" |
