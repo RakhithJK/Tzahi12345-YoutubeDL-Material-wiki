@@ -22,6 +22,6 @@ See the available pages below.
 * [Fixing 429 Errors](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Fixing-429-errors)
 
 ### Environment specific Guides/Help
-* [iOS Shortcuts App](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/iOSShortcuts)
+* [iOS Shortcuts App](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/iOS-Shortcuts-Workflow)
 * [Synology](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Synology)
 * [unRAID](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/unRAID)
