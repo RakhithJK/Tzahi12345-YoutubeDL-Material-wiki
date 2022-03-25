@@ -18,3 +18,7 @@ That's it!
 YoutubeDL-Material will create the tables it needs on its own and fill them with the data from your Local DB.  
 **This process may take quite some time**, especially on large datasets, so be patient, please! You can use tools  
 like MongoDBCompass (MongoDB's official database inspector and editor) to check on the ingress of entries.
+
+<hr>
+
+unRAID specific instructions also available! [Click here](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/unRAID#mongodb-database-setup)
