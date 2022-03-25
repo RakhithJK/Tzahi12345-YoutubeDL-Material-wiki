@@ -18,6 +18,9 @@ See the available pages below.
 * [Reverse Proxy Setup](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Reverse-Proxy-Setup)
 * [Translate](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Translate) (to create translations)
 
+### MongoDB as backend for improved reliability and performance
+* [Setting a MongoDB backend](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Setting-a-MongoDB-backend-to-use-as-database-provider-for-YTDL-M)
+
 ### Troubleshooting specific common errors
 * [Fixing 429 Errors](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Fixing-429-errors)
 
