@@ -1,6 +1,6 @@
 # Overview
 
-[API Docs](https://stoplight.io/p/docs/gh/tzahi12345/youtubedl-material?group=master&utm_campaign=publish_dialog&utm_source=studio)
+[API Docs](https://youtubedl-material.stoplight.io/docs/youtubedl-material)
 
 To get started, go to the settings menu and enable the public API from the *Extra* tab. You can generate an API key if one is missing.
 
