@@ -13,6 +13,7 @@ See the available pages below.
 * [Environment Variables](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Environment-Variables)
 * [API](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/API)
 * [Categories](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Categories)
+* [Archive](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Archive)
 * [Contributing](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Contributing)
 * [Firefox Extension](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Firefox-Extension)
 * [Reverse Proxy Setup](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Reverse-Proxy-Setup)
