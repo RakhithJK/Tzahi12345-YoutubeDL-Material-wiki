@@ -29,3 +29,4 @@ See the available pages below.
 * [iOS Shortcuts App](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/iOS-Shortcuts-Workflow)
 * [Synology](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Synology)
 * [unRAID](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/unRAID)
+* [Raspberry Pi 4](https://github.com/Tzahi12345/YoutubeDL-Material/wiki/Raspberry-Pi-4)
