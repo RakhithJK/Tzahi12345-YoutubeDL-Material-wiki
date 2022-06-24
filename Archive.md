@@ -8,7 +8,7 @@ The following table summarizes where we store the archive:
 
 |                       | Single-user mode                  | Multi-user mode                                    |
 |-----------------------|-----------------------------------|----------------------------------------------------|
-| **One-off download**      | appdata/archives                  | users/\<username>/archives                          |
+| **One-off download**      | appdata/archives                  | users/\<username>/\<type>/archives                          |
 | **Subscription download** | subscriptions/archives/\<sub name> | users/\<username>/subscriptions/archives/\<sub name> |
 
 In each folder you can find 3 types of text files:
