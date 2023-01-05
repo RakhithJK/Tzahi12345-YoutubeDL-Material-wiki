@@ -32,8 +32,8 @@ http://example.com/api/rss?uid=admin
 http://example.com/api/rss?uid=admin&text_search=chess
 * Generate feed with files downloaded by user `admin`, and filter for files that include the word `chess`
 
-http://example.com/api/rss?sub_id=<sub id>
-* Generate feed with files from subscription with ID `<sub id>`
+http://example.com/api/rss?sub_id=abcd
+* Generate feed with files from subscription with ID `abcd`
 
 ## Links
 
