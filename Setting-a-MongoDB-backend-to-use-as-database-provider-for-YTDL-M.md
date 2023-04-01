@@ -1,3 +1,5 @@
+**Warning: this only applies to user upgrading from versions before v4.3**
+
 Running YoutubeDL-Material with a MongoDB database backend will GREATLY increase stability,  
 performance and scalability for up to tens of thousands of video/audio downloads  
 (as of current testing, tell us if your dataset is larger and successful! :))
