@@ -17,10 +17,10 @@ ytdlt-db-1 exited with code 132
 
 MongoDB's latest Docker image does not support Raspberry Pi 4.
 
-The workaround is to set the MongoDB version in the docker-compose to `4.4.6` like so:
+The workaround is to set the MongoDB version in the docker-compose to `4.4.18` like so:
 
 ```
-image: mongo:4.4.6
+image: mongo:4.4.18
 ```
 
 So your full docker-compose.yml may look like this:
@@ -45,7 +45,7 @@ services:
             - "8998:17442"
         image: tzahi12345/youtubedl-material:latest
     ytdl-mongo-db:
-        image: mongo:4.4.6
+        image: mongo:4.4.18
         ports:
             - "27017:27017"
         logging:
