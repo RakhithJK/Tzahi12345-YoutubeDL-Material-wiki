@@ -4,6 +4,8 @@ With v4.3.1, there is now notifications support. There are built-in notification
 
 Go to the `Notifications` tab in your settings to integrate with:
 
+* [Discord](https://discord.com/)
+* [Slack](https://slack.com/)
 * [Telegram](https://telegram.org/)
 * [Gotify](https://gotify.net/)
 * [ntfy](https://ntfy.sh/)
@@ -21,6 +23,27 @@ There are currently 3 types of notifications. Here they are and the type of data
 You can disable or enable each type of notification to your choosing.
 
 # Get started
+
+## Discord
+
+Docs: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+
+1. In a channel, go into the settings and click integrations
+2. Create a webhook
+3. Copy the webhook into the discord webhook setting
+4. All set!
+
+## Slack
+
+Docs: https://api.slack.com/messaging/webhooks
+
+1. Create a slack app (use "from scratch")
+2. Assign the slack app to your desired workspace
+3. Click `Incoming Webhooks` and enable it
+4. Click `Add New Webhook to Workspace`
+5. Give it permissions to your desired channel
+6. It should return you back to the `Incoming Webhooks` page with a webhook URL at the bottom. Copy it into the dedicated settings for slack webhooks
+7. All set!
 
 ## Telegram
 
