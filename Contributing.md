@@ -9,6 +9,15 @@ Here are the official contributing guidelines! The following sections are includ
   * [Code Overview](#code-overview-1) (WIP)
   * [General rules](#general-rules-1) (WIP)
 
+# Codespaces
+
+The easiest way to test new code is to open the branch in a [GitHub Codespace](https://github.com/codespaces).
+
+1. Wait for the npm install to finish post creation
+2. In one terminal, run `npm run codespaces` to start the frontend
+3. In another terminal, navigate to backend and run `npm run debug` to start the backend
+4. You may need to set the ports to public, but otherwise it should be accessible at the `4200` port.
+
 # Getting set up
 
 1. First, make sure you have Node.js installed. You will need it to do both backend and frontend development.
